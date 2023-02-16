@@ -31,8 +31,8 @@ const ParentComponent = () => {
     <>
       <p>다크 모드 : {dartMode ? '다크 모드' : '그냥 모드'}</p>
       <input type="button" onClick={() => setDartMode(!dartMode)} />
-      {/* <ChildComponent getCount={returnCount}></ChildComponent>  */}
-      <ChildComponent getCount={getCount}></ChildComponent>
+      <ChildComponent getCount={returnCount}></ChildComponent> 
+      {/* <ChildComponent getCount={getCount}></ChildComponent> */}
     </>
   );
 };
